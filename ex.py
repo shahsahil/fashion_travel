@@ -6,7 +6,7 @@ from os.path import join, dirname
 from os import environ
 from watson_developer_cloud import VisualRecognitionV3
 
-visual_recognition = VisualRecognitionV3('2016-05-20', api_key='885fc12f8c46a97bdd6dc53b9ec90e37f9b9b44f')
+visual_recognition = VisualRecognitionV3('2016-05-20', api_key='<YOUR IBM SERVICE ACCESS0 KEY>')
 print("HELLO")
 
 def add():
