@@ -19,4 +19,4 @@ IBM Bluemix Services used -
 
 The Kinetise UI consists of forms(static and dynamic). Please send an email to shahsahil007@gmail.com to get half hour access of the app. As the app is paid and can be used for only 30 minutes after compilation. 
 
-All other bluemix services are also paid. I have only the free version access. So the access is limited. Please mail me at shahsahil007@gamil.com so that I can resolve them. 
+All other bluemix services are also paid. I have only the free version access. So the access is limited. Please mail me at shahsahil007@gmail.com so that I can resolve them. 
