@@ -1,4 +1,6 @@
 # fashion_travel
+IBM Bluemix Account - sahilshah5@outlook.com
+
 A demo was presented of the completely working app model and the backend server on the day of the hackathon.
 
 Using Python and IBM Bluemix services to create a smart digital wardrobe.
