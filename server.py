@@ -121,11 +121,15 @@ def travel():
 	countrycode = j['countrycode']
 	days = j['days']
 	city = j['city']
+	print(days)
 	print(j)
 	global selected
 	selected = []
 	temp = getweatherdata(pincode, countrycode)
 	selected = process(temp)
+	l = int(2*int(days) /3)+1
+	if(len(selected)>l):
+		selected = selected[0:l-1]
 	return "0"
 
 @app.route('/last')
