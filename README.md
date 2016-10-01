@@ -1,4 +1,6 @@
 # fashion_travel
+A demo was presented of the completely working app model and the backend server on the day of the hackathon.
+
 Using Python and IBM Bluemix services to create a smart digital wardrobe.
 
 The server.py consists of Web hosting script. It is in Python based script using Flask package for hosting. The app is not uploaded here.
