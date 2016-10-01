@@ -1,0 +1,40 @@
+Hackathon Themes
+Here are five themes that you can work on:
+Open theme:
+Build any App on Bluemix or use a Bluemix service in your App. The following approach is suggested though not compulsory to follow:
+Top layer: Combination of any: Python flask, Twitter, NodeRed
+Next Level: Delivery pipeline is a must. Wep app can be deployed into an app server like Liberty Profile
+Backend: Mongo Db, Cloudant as databases
+Look up ibm.biz/mobiledashboard for easy coding!
+Natural Disasters: Safety
+Plot live earthquakes as they occur on a map using IBM Bluemix. Monitor a location of interest and send an SMS alert as and when an earthquake occurs in your place of interest. Use any available Bluemix services like Streaming Analytics, Node-red to monitor public earthquake DB and Twillio integration for sending SMS alerts.
+Data sets you can use:
+http://www.findthedata.com/
+http://earthquake.usgs.gov/earthquakes/search/
+Fashion Visual Search
+Build an app using IBM Bluemix in which one can upload an image of a clothing and it should be able to search “similar cloth images” from a collection of images. It would involve having a set of cloth images (from some publicly available images) and then build/use an image similarity and some more rules to get similar images. Use Visual Recognition APIs.
+Travel and weather
+Create a travel & fashion app using IBM Bluemix. Create a digital wardrobe which is the collection of all the clothes that one has, along with some of its properties like cloth type etc. Given a travel destination and duration it should be able to suggest you clothes to take. Building this will involve weather APIs along with some visual recognition APIs.
+Kids Education
+Build a Kids Educational App using IBM Bluemix. In this a kid can pause a running video and then touch a picture and ask “what is this” or “what is this color” and the system should be able to appropriately answer. Building this would involve combination of Speech to text API, and Alchemy Visual API along with others.
+These themes have a mixture of Analytics, Cognitive Computing and Mobility aspects to them. You can use these themes as guides to build your product.
+It is mandatory to set up your repository on Github, the link to which you’d be providing as a part of your submission
+
+If you’re not familiar with Git version control and Github make use of the links below:
+Hello World project on Github (Article)
+Webcast • The Basics of Git and GitHub • July 2013 (Video)
+Also note. You must make use of at least one of IBM Bluemix services.
+
+Judging Criteria
+Your submission will be judged on the following equally weighted parameters
+Understanding of the Problem/Uniqueness of Idea
+Development Approach
+Front End Rating
+Bluemix Service Level Rating
+Coding Standard
+Presentation and Communication Skills
+Time Management
+Completion Rating
+Get to work asap! Remember the hackathon ends at 4 p.m. on Saturday. So there's not much time left!!
+
+Note: You are requested to Compulsorily get your IBM Bluemix Account activated and come for the hackathon. In case if your Bluemix Account has expired please get in touch with us.
