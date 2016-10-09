@@ -4,7 +4,7 @@ import json
 from os.path import join, dirname
 from os import environ
 from watson_developer_cloud import VisualRecognitionV3
-visual_recognition = VisualRecognitionV3('2016-05-20', api_key='885fc12f8c46a97bdd6dc53b9ec90e37f9b9b44f')
+visual_recognition = VisualRecognitionV3('2016-05-20', api_key='<YOUR API KEY>')
 import requests
 import os
 
@@ -30,7 +30,7 @@ def getweatherdata(pincode,countrycode):
 	temp =0 #1-v cool  2- mix  3-hot
 	l=[pincode,"%3A4%3A",countrycode]
 	location = ''.join(l)
-	r = requests.get('https://8ec8d584-1f3a-4b02-8cf5-eb3806a42be2:Mti7nn8dnq@twcservice.mybluemix.net/api/weather/v1/location/'+location+'/forecast/daily/7day.json')
+	r = requests.get('<your link>twcservice.mybluemix.net/api/weather/v1/location/'+location+'/forecast/daily/7day.json')
 	data = json.loads(r.text)['forecasts']
 	for i in data:
 		#print(i)
@@ -149,7 +149,7 @@ def carry():
 	
 @app.route('/carry2')
 def carry2():
-	api_key = "a9501184959ec1273e60288056cef5e638b7a0ef"
+	api_key = "<YOUR API KEY>"
 	global city
 	print(city)
 	city = city.strip()
